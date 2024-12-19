@@ -1,0 +1,491 @@
+[09:04:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:04:32] [ServerMain/INFO]: Loaded 1174 recipes
+[09:04:32] [ServerMain/INFO]: Loaded 1271 advancements
+[09:04:32] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[09:04:32] [Server thread/WARN]: ****************************
+[09:04:32] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[09:04:32] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[09:04:32] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[09:04:32] [Server thread/WARN]: ****************************
+[09:04:32] [Server thread/INFO]: Loading properties
+[09:04:32] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[09:04:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:04:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:04:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[09:04:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[09:04:35] [Server thread/INFO]: Default game type: SURVIVAL
+[09:04:35] [Server thread/INFO]: Generating keypair
+[09:04:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:04:36] [Server thread/INFO]: Using epoll channel type
+[09:04:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:04:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:04:37] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[09:04:38] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/sigma/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[09:04:38] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[09:04:38] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[09:04:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:04:39] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:04:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:04:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:04:40] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[09:04:40] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.3
+[09:04:40] [Server thread/INFO]: [Themis] Loading server plugin Themis v0.16.1
+[09:04:40] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[09:04:40] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.2
+[09:04:40] [Server thread/INFO]: [TheBridge] Loading server plugin TheBridge v2.1.0
+[09:04:40] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.4
+[09:04:40] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
+[09:04:40] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.4.6
+[09:04:40] [Server thread/INFO]: [ClickVillagers] Loading server plugin ClickVillagers v0.5.1
+[09:04:40] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.6
+[09:04:40] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
+[09:04:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:04:40] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[09:04:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:04:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:04:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:04:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:04:40] [Server thread/INFO]: Preparing level "world"
+[09:04:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:04:42] [Server thread/INFO]: Time elapsed: 464 ms
+[09:04:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:04:42] [Server thread/INFO]: Time elapsed: 366 ms
+[09:04:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:04:42] [Server thread/INFO]: Time elapsed: 147 ms
+[09:04:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[09:04:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[09:04:43] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.3
+[09:04:43] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[09:04:43] [Server thread/INFO]: [GriefPrevention] 6 total claims loaded.
+[09:04:43] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[09:04:43] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[09:04:44] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[09:04:44] [Server thread/INFO]: [Themis] Enabling Themis v0.16.1
+[09:04:44] [Server thread/WARN]: [Themis] Couldn't find Floodgate which is required for Bedrock support
+[09:04:44] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[09:04:44] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.2
+[09:04:44] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.20.4 (Core v1_20x)
+[09:04:45] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'GriefPrevention' for plugin 'GriefPrevention'...
+[09:04:45] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'GriefPrevention' for plugin 'GriefPrevention'...
+[09:04:45] [Server thread/INFO]: [TheBridge] Enabling TheBridge v2.1.0
+[09:04:45] [Server thread/INFO]: [TheBridge] Connecting to services, please wait! Server may freeze a bit!
+[09:04:46] [Server thread/INFO]: [TheBridge] Hooked with ServiceRegistry! Initialized services properly!
+[09:04:46] [Server thread/WARN]: [TheBridge] [Debug] Fetched latest localization file from repository.
+[09:04:46] [Server thread/WARN]: [TheBridge] [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
+[09:04:48] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[09:04:48] [Server thread/INFO]: [TheBridge] 
+[09:04:48] [Server thread/INFO]: [TheBridge] Versions: 
+[09:04:48] [Server thread/INFO]: [TheBridge] Plugin: 2.1.0 | Server: git-Paper-497 (MC: 1.20.4) | Detected: v1_20 | Software: Paper | Java: 21.0.4
+[09:04:48] [Server thread/INFO]: [TheBridge] 
+[09:04:48] [Server thread/INFO]: [TheBridge] This plugin was created by Plugily Projects as part of an open source project ( https://donate.plugily.xyz )
+[09:04:48] [Server thread/INFO]: [TheBridge] 
+[09:04:48] [Server thread/INFO]: [TheBridge][SUPPORT] If you have any problems, you can always contact us on our Discord server! ( https://discord.plugily.xyz )
+[09:04:48] [Server thread/INFO]: [TheBridge][SUPPORT] You can also check out our wiki at https://wiki.plugily.xyz
+[09:04:48] [Server thread/INFO]: [TheBridge] 
+[09:04:48] [Server thread/INFO]: [TheBridge]                               The plugin got fully enabled! Enjoy the plugin ;)
+[09:04:48] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[09:04:49] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
+[09:04:49] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[09:04:49] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
+[09:04:49] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[09:04:49] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
+[09:04:49] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.6
+[09:04:51] [Server thread/INFO]: [ClickVillagers] Enabling ClickVillagers v0.5.1
+[09:04:51] [Server thread/INFO]: Check for updates...
+[09:04:53] [Server thread/INFO]: ClickVillagers activated.
+[09:04:53] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.6
+[09:04:53] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[09:04:53] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[09:04:53] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[09:04:54] [Thread-17/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[09:04:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[09:04:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[09:04:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[09:04:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[09:04:55] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[09:04:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[09:04:55] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[09:04:55] [Server thread/INFO]: [VeinMiner] Anti cheat detected. Enabling anti cheat support for "Themis"
+[09:04:55] [Server thread/INFO]: [VeinMiner] Registering commands
+[09:04:55] [Server thread/INFO]: [VeinMiner] Registering events
+[09:04:55] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
+[09:04:55] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[09:04:55] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[09:04:55] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
+[09:04:55] [Thread-18/INFO]: [VeinMiner] You are on the latest version of VeinMiner!
+[09:04:57] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[09:04:57] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:04:57] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[09:04:57] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:04:57] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[09:04:57] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:04:58] [Server thread/INFO]: Running delayed init tasks
+[09:04:58] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[09:04:58] [Server thread/INFO]: Done (26.087s)! For help, type "help"
+[09:04:58] [Server thread/INFO]: Timings Reset
+[09:05:05] [User Authenticator #0/INFO]: UUID of player Minhthichcu is a6ea4077-658a-3ba1-9d15-a11facd5a1a5
+[09:05:07] [Server thread/INFO]: Minhthichcu joined the game
+[09:05:07] [Server thread/INFO]: Minhthichcu[/172.30.243.15:51949] logged in with entity id 310 at ([world]-578.3000000119209, -24.0, 3721.3290971598617)
+[09:05:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[09:05:09] [User Authenticator #0/INFO]: UUID of player sang2934 is 8b1d0df2-2113-3d44-9c80-473ba0cfb6aa
+[09:05:10] [Server thread/INFO]: sang2934 joined the game
+[09:05:10] [Server thread/INFO]: sang2934[/172.30.157.77:56500] logged in with entity id 470 at ([world_nether]-2.917306039177378, 65.0, 59.764347844620644)
+[09:05:14] [User Authenticator #0/INFO]: UUID of player amogus20241 is 0e9c0d48-1115-33f6-85dd-22f539d99bc9
+[09:05:16] [Server thread/INFO]: amogus20241 joined the game
+[09:05:16] [Server thread/INFO]: amogus20241[/172.30.176.200:59881] logged in with entity id 556 at ([world]-39.5, 79.0, 3.5)
+[09:05:20] [Server thread/INFO]: amogus20241 issued server command: /tpa sang2934
+[09:05:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5842ms or 116 ticks behind
+[09:05:35] [Server thread/INFO]: sang2934 has made the advancement [Into Fire]
+[09:05:39] [Server thread/INFO]: sang2934 issued server command: /tpaccept
+[09:07:52] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:10:43] [Server thread/INFO]: amogus20241 issued server command: /tpa Minhthichcu
+[09:10:46] [Async Chat Thread - #0/INFO]: [Not Secure] <amogus20241> minh bell
+[09:11:00] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:12:19] [Server thread/INFO]: sang2934 issued server command: /tpa Minhthichcu
+[09:14:31] [Server thread/INFO]: sang2934 issued server command: /tpa Minhthichcu
+[09:14:51] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:14:56] [Server thread/INFO]: amogus20241 fell from a high place
+[09:15:02] [Server thread/INFO]: amogus20241 issued server command: /back
+[09:15:07] [Server thread/INFO]: sang2934 issued server command: /tpa Minhthichcuh
+[09:15:23] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:15:29] [Server thread/INFO]: sang2934 issued server command: /tpa Minhthichcu
+[09:15:34] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:15:39] [Server thread/INFO]: sang2934 issued server command: /tpa Minhthichcu
+[09:15:41] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:15:55] [Server thread/INFO]: amogus20241 issued server command: /back
+[09:16:19] [Server thread/INFO]: amogus20241 issued server command: /back
+[09:16:38] [Server thread/INFO]: amogus20241 lost connection: Disconnected
+[09:16:38] [Server thread/INFO]: amogus20241 left the game
+[09:16:55] [Server thread/INFO]: sang2934 issued server command: /tpa Minhthichcu
+[09:17:05] [User Authenticator #1/INFO]: UUID of player amogus20241 is 0e9c0d48-1115-33f6-85dd-22f539d99bc9
+[09:17:06] [Server thread/INFO]: amogus20241 joined the game
+[09:17:06] [Server thread/INFO]: amogus20241[/172.30.176.200:60498] logged in with entity id 3853 at ([world_nether]-4.699999988079071, 53.88402100394583, 76.30000001192093)
+[09:17:11] [Server thread/INFO]: amogus20241 issued server command: /back
+[09:17:34] [Server thread/INFO]: sang2934 issued server command: /home
+[09:17:37] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:17:51] [Server thread/INFO]: sang2934 issued server command: /ignoreclaims
+[09:18:42] [Server thread/INFO]: sang2934 issued server command: /tpa Minhthichcu
+[09:18:47] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:19:45] [Server thread/INFO]: Minhthichcu has made the advancement [Into Fire]
+[09:22:34] [Server thread/INFO]: Minhthichcu tried to swim in lava
+[09:22:37] [Server thread/INFO]: Minhthichcu issued server command: /back
+[09:22:41] [Server thread/INFO]: amogus20241 issued server command: /tpa Minhthichcu
+[09:23:17] [Server thread/INFO]: amogus20241 issued server command: /tpa sang2934
+[09:23:19] [Server thread/INFO]: sang2934 issued server command: /tpaccept
+[09:23:31] [Server thread/INFO]: amogus20241 was slain by sang2934
+[09:23:36] [Server thread/INFO]: amogus20241 issued server command: /back
+[09:24:23] [Server thread/INFO]: Minhthichcu issued server command: /back
+[09:25:07] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:25:14] [Server thread/INFO]: amogus20241 issued server command: /tpa Minhthichcu
+[09:25:21] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:25:46] [Server thread/INFO]: amogus20241 issued server command: /tpa Minhthichcu
+[09:25:53] [Server thread/INFO]: Minhthichcu issued server command: /tpaccept
+[09:26:06] [Server thread/INFO]: amogus20241 issued server command: /sethome
+[09:28:33] [Server thread/INFO]: sang2934 issued server command: /home
+[09:28:43] [Server thread/INFO]: amogus20241 was slain by sang2934
+[09:28:52] [Server thread/INFO]: amogus20241 issued server command: /back
+[09:30:02] [Server thread/INFO]: sang2934 issued server command: /trust amogus20241
+[09:31:30] [Server thread/INFO]: Minhthichcu was slain by sang2934
+[09:31:54] [Async Chat Thread - #2/INFO]: [Not Secure] <amogus20241> mej t vef
+[09:31:55] [Server thread/INFO]: amogus20241 lost connection: Disconnected
+[09:31:55] [Server thread/INFO]: amogus20241 was slain by sang2934
+[09:31:55] [Server thread/INFO]: amogus20241 left the game
+[09:32:02] [Async Chat Thread - #2/INFO]: [Not Secure] <sang2934> WTF
+[09:33:33] [Server thread/INFO]: Minhthichcu was burned to a crisp while fighting sang2934
+[09:35:55] [Async Chat Thread - #4/INFO]: [Not Secure] <sang2934> ỦA
+[09:35:59] [Async Chat Thread - #4/INFO]: [Not Secure] <sang2934> OFF À?
+[09:36:08] [Async Chat Thread - #4/INFO]: [Not Secure] <Minhthichcu> t vua xem phim vua cay:))
+[09:38:33] [Async Chat Thread - #6/INFO]: [Not Secure] <sang2934> chx làm bàn phù phép nx:)))
+[09:39:13] [Async Chat Thread - #6/INFO]: [Not Secure] <sang2934> lỡ đánh dân làn:)))
+[09:41:08] [Server thread/INFO]: sang2934 issued server command: /home
+[09:42:02] [Async Chat Thread - #8/INFO]: [Not Secure] <Minhthichcu> no le
+[09:42:28] [Server thread/INFO]: Minhthichcu was slain by sang2934
+[09:42:31] [Server thread/INFO]: Minhthichcu issued server command: /back
+[09:44:04] [Async Chat Thread - #10/INFO]: [Not Secure] <Minhthichcu> ma
+[09:44:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Minhthichcu> het exp r ne dcmmmmm
+[09:44:08] [Async Chat Thread - #10/INFO]: [Not Secure] <sang2934> hả
+[09:44:28] [Async Chat Thread - #10/INFO]: [Not Secure] <sang2934> emer đâu
+[09:44:33] [Async Chat Thread - #10/INFO]: [Not Secure] <Minhthichcu> do
+[09:46:13] [Async Chat Thread - #12/INFO]: [Not Secure] <Minhthichcu> t can 1 khu nuoi axolot
+[09:46:16] [Async Chat Thread - #12/INFO]: [Not Secure] <Minhthichcu> :)))
+[09:46:52] [Server thread/INFO]: sang2934 has made the advancement [Enchanter]
+[09:48:14] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:49:03] [Server thread/INFO]: Minhthichcu was shot by sang2934
+[09:49:03] [Server thread/INFO]: sang2934 has made the advancement [Take Aim]
+[09:49:07] [Async Chat Thread - #14/INFO]: [Not Secure] <Minhthichcu> dcm
+[09:49:08] [Async Chat Thread - #15/INFO]: [Not Secure] <sang2934> wtf
+[09:49:10] [Async Chat Thread - #15/INFO]: [Not Secure] <sang2934> srrr
+[09:49:12] [Async Chat Thread - #15/INFO]: [Not Secure] <Minhthichcu> deo co exp
+[09:49:13] [Server thread/INFO]: sang2934 issued server command: /home
+[09:49:14] [Async Chat Thread - #15/INFO]: [Not Secure] <Minhthichcu> maaaaaaaa
+[09:49:15] [Server thread/INFO]: sang2934 issued server command: /home
+[09:49:19] [Server thread/INFO]: sang2934 issued server command: /home
+[09:49:52] [Async Chat Thread - #14/INFO]: [Not Secure] <Minhthichcu> xay bi loi r m
+[09:49:56] [Async Chat Thread - #14/INFO]: [Not Secure] <sang2934> ép cung đi minh
+[09:50:04] [Async Chat Thread - #14/INFO]: [Not Secure] <sang2934> ko lỗi đâu
+[09:50:06] [Async Chat Thread - #14/INFO]: [Not Secure] <Minhthichcu> ma sang oi
+[09:50:13] [Async Chat Thread - #14/INFO]: [Not Secure] <Minhthichcu> loi 2 ben r:))
+[09:50:20] [Server thread/INFO]: sang2934 issued server command: /home
+[09:50:22] [Server thread/INFO]: sang2934 issued server command: /home
+[09:50:24] [Server thread/INFO]: sang2934 issued server command: /home
+[09:50:27] [Server thread/INFO]: sang2934 issued server command: /home
+[09:50:29] [Server thread/INFO]: sang2934 issued server command: /home
+[09:50:31] [Server thread/INFO]: sang2934 issued server command: /home
+[09:50:31] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:50:33] [Server thread/INFO]: sang2934 issued server command: /home
+[09:50:36] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:51:22] [Server thread/INFO]: Minhthichcu drowned
+[09:51:26] [Server thread/INFO]: Minhthichcu issued server command: /back
+[09:52:08] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:53:05] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:53:05] [Async Chat Thread - #16/INFO]: [Not Secure] <sang2934> wtf
+[09:54:00] [Async Chat Thread - #17/INFO]: [Not Secure] <sang2934> cày giáp đi
+[09:54:15] [Async Chat Thread - #17/INFO]: [Not Secure] <Minhthichcu> co exp dau cay:)))
+[09:54:53] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:55:50] [Async Chat Thread - #18/INFO]: [Not Secure] <sang2934> trade đi
+[09:55:50] [Server thread/INFO]: Minhthichcu drowned
+[09:55:54] [Server thread/INFO]: Minhthichcu issued server command: /back
+[09:55:56] [Async Chat Thread - #18/INFO]: [Not Secure] <Minhthichcu> ma:)))
+[09:55:56] [Async Chat Thread - #18/INFO]: [Not Secure] <sang2934> lạy cha
+[09:56:48] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:57:12] [Server thread/INFO]: Minhthichcu issued server command: /home
+[09:57:14] [Server thread/INFO]: Minhthichcu lost connection: Disconnected
+[09:57:14] [Server thread/INFO]: Minhthichcu left the game
+[10:31:39] [Server thread/INFO]: sang2934 issued server command: /trustlist
+[11:10:51] [Server thread/INFO]: sang2934 issued server command: /home
+[11:18:53] [Server thread/INFO]: sang2934 issued server command: /home
+[11:31:42] [Server thread/INFO]: sang2934 lost connection: Timed out
+[11:31:42] [Server thread/INFO]: sang2934 left the game
+[13:48:34] [User Authenticator #2/INFO]: UUID of player Minhthichcu is a6ea4077-658a-3ba1-9d15-a11facd5a1a5
+[13:48:35] [Server thread/INFO]: Minhthichcu joined the game
+[13:48:35] [Server thread/INFO]: Minhthichcu[/172.30.243.15:53378] logged in with entity id 82857 at ([world]-386.5448235363105, -59.0, -251.8748087768682)
+[13:49:13] [Server thread/INFO]: Minhthichcu issued server command: /home
+[13:52:15] [Server thread/INFO]: Minhthichcu lost connection: Disconnected
+[13:52:15] [Server thread/INFO]: Minhthichcu left the game
+[13:56:43] [User Authenticator #3/INFO]: UUID of player KaredMc is f0bb2e1d-6205-3a10-8994-4be4547f8c4b
+[13:56:43] [Server thread/INFO]: KaredMc joined the game
+[13:56:43] [Server thread/INFO]: KaredMc[/172.30.20.174:49486] logged in with entity id 85573 at ([world]-244.82998971587833, 64.0, 214.23750001192093)
+[13:58:55] [Server thread/INFO]: KaredMc has made the advancement [Cover Me with Diamonds]
+[14:00:53] [Async Chat Thread - #20/INFO]: [Not Secure] <KaredMc> sang
+[14:01:10] [Server thread/INFO]: KaredMc has made the advancement [What a Deal!]
+[14:04:38] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:07:27] [Server thread/INFO]: KaredMc lost connection: Timed out
+[14:07:27] [Server thread/INFO]: KaredMc left the game
+[14:24:15] [User Authenticator #4/INFO]: UUID of player sang2934 is 8b1d0df2-2113-3d44-9c80-473ba0cfb6aa
+[14:24:16] [Server thread/INFO]: sang2934 joined the game
+[14:24:16] [Server thread/INFO]: sang2934[/172.30.157.77:61794] logged in with entity id 87070 at ([world]-384.7051713144455, -59.0, -250.54469491813708)
+[14:24:34] [Server thread/INFO]: sang2934 issued server command: /i
+[14:24:40] [Server thread/INFO]: sang2934 issued server command: /ignoreclaims
+[14:51:02] [User Authenticator #5/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:51:03] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[14:51:03] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:60891] logged in with entity id 104133 at ([world]-380.4844906905497, -59.0, -196.4412723342126)
+[14:51:11] [Async Chat Thread - #22/INFO]: [Not Secure] <sang2934> thk cháo bỏ
+[14:51:28] [Server thread/INFO]: sang2934 issued server command: /untrust Dragon_Gaming_VN
+[14:51:43] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[14:51:43] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[14:52:05] [User Authenticator #6/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:52:06] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[14:52:06] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:60903] logged in with entity id 104790 at ([world]-380.69999998807907, -59.0, -194.3209549964082)
+[14:52:38] [Async Chat Thread - #24/INFO]: [Not Secure] <Dragon_Gaming_VN> sang
+[14:52:39] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> J
+[14:52:43] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> binhf tĩnh
+[14:52:49] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> SAO PING T CAO THẾ
+[14:53:01] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[14:53:01] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[14:53:07] [User Authenticator #7/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:53:07] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[14:53:07] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:60917] logged in with entity id 105401 at ([world]-382.73285963836844, -59.0, -250.15221110073432)
+[14:53:14] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> sang
+[14:53:18] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> j
+[14:53:19] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> calm down
+[14:53:24] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> j v cha
+[14:53:30] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> ban vui mà:)))
+[14:54:29] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> ma
+[14:54:31] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> lag
+[14:54:33] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[14:54:33] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[14:54:40] [User Authenticator #8/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:54:40] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[14:54:40] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:60963] logged in with entity id 106348 at ([world]-381.93680964224615, -59.0, -255.81237194183097)
+[14:54:45] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> t chx cấp quyền mà:)))
+[14:54:49] [Async Chat Thread - #25/INFO]: [GriefPrevention] Muted repeat message.
+[14:54:49] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> lag
+[14:55:14] [Server thread/INFO]: sang2934 issued server command: /trust Dragon_Gaming_VN
+[14:55:25] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> cấm đụng vào rương xp của minh nha
+[14:55:48] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> co mở đc đâu mà đòi
+[14:55:49] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[14:55:49] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[14:55:55] [User Authenticator #9/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:55:55] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[14:55:56] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:60977] logged in with entity id 107126 at ([world]-386.8340829504636, -59.0, -261.17450321881284)
+[14:56:01] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> :)))
+[14:56:04] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> ngu
+[14:56:16] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> ngao như bủ
+[14:56:26] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> t giết hết villager của m nè chó sang
+[14:56:31] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[14:56:31] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[14:56:47] [User Authenticator #9/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:56:47] [Server thread/INFO]: Disconnecting Dragon_Gaming_VN (/172.30.161.183:60987): You must wait 9 seconds before logging-in again.
+[14:56:47] [Server thread/INFO]: Dragon_Gaming_VN (/172.30.161.183:60987) lost connection: You must wait 9 seconds before logging-in again.
+[14:56:58] [User Authenticator #9/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:56:58] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[14:56:58] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:60991] logged in with entity id 107790 at ([world]-382.0021943131156, -59.0, -259.37416750656985)
+[14:57:06] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> qua chỗ tính đi bảo
+[14:57:09] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> k
+[14:57:15] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> giet villager của sang
+[14:57:18] [Async Chat Thread - #25/INFO]: [Not Secure] <Dragon_Gaming_VN> yess
+[14:57:18] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> chứ thk minh ko vô
+[14:57:24] [Async Chat Thread - #25/INFO]: [Not Secure] <sang2934> sao lấy quyền đc
+[14:57:27] [Server thread/INFO]: Dragon_Gaming_VN has made the advancement [We Need to Go Deeper]
+[14:57:42] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[14:57:42] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[14:57:48] [User Authenticator #9/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:57:48] [Server thread/INFO]: Disconnecting Dragon_Gaming_VN (/172.30.161.183:60997): You must wait 10 seconds before logging-in again.
+[14:57:48] [Server thread/INFO]: Dragon_Gaming_VN (/172.30.161.183:60997) lost connection: You must wait 10 seconds before logging-in again.
+[14:57:59] [User Authenticator #9/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[14:58:00] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[14:58:00] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:61000] logged in with entity id 108442 at ([world_nether]-58.75468236069355, 52.0, -18.5)
+[14:58:26] [Async Chat Thread - #26/INFO]: [Not Secure] <Dragon_Gaming_VN> gieets villager
+[14:58:29] [Async Chat Thread - #26/INFO]: [Not Secure] <Dragon_Gaming_VN> yessss
+[15:00:12] [Server thread/INFO]: §5[Themis] §4Dragon_Gaming_VN §cwas flagged for §4Timer / Blink §chacks!
+§c[Score: §416.0 §c| Ping: §43638 §c| TPS: §420.0§c]
+[15:00:18] [Async Chat Thread - #28/INFO]: [Not Secure] <sang2934> bảo lỏ
+[15:00:23] [Async Chat Thread - #29/INFO]: [Not Secure] <Dragon_Gaming_VN> j
+[15:00:33] [Async Chat Thread - #29/INFO]: [Not Secure] <sang2934> đi kiếm sắt cho t
+[15:00:34] [Async Chat Thread - #29/INFO]: [Not Secure] <Dragon_Gaming_VN> sang
+[15:00:39] [Async Chat Thread - #29/INFO]: [Not Secure] <Dragon_Gaming_VN> m có gỗ k
+[15:00:47] [Async Chat Thread - #29/INFO]: [Not Secure] <sang2934> chặt đi bé
+[15:01:11] [Async Chat Thread - #29/INFO]: [Not Secure] <sang2934> đào muốn gãy tay
+[15:01:19] [Async Chat Thread - #29/INFO]: [Not Secure] <Dragon_Gaming_VN> leen mat dat cho nào
+[15:01:25] [Async Chat Thread - #29/INFO]: [Not Secure] <Dragon_Gaming_VN> sang
+[15:01:30] [Async Chat Thread - #29/INFO]: [Not Secure] <Dragon_Gaming_VN> leen mat đat chõ nào
+[15:01:31] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[15:01:31] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[15:01:34] [Async Chat Thread - #29/INFO]: [Not Secure] <sang2934> lên chỗ nc
+[15:01:38] [User Authenticator #10/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[15:01:39] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[15:01:39] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:61065] logged in with entity id 110778 at ([world]-383.204663176462, -59.0, -256.84199854790126)
+[15:01:46] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[15:01:46] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[15:01:58] [User Authenticator #10/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[15:01:58] [Server thread/INFO]: Disconnecting Dragon_Gaming_VN (/172.30.161.183:61070): You must wait 42 seconds before logging-in again.
+[15:01:58] [Server thread/INFO]: Dragon_Gaming_VN (/172.30.161.183:61070) lost connection: You must wait 42 seconds before logging-in again.
+[15:02:29] [User Authenticator #10/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[15:02:29] [Server thread/INFO]: Disconnecting Dragon_Gaming_VN (/172.30.161.183:61075): You must wait 10 seconds before logging-in again.
+[15:02:29] [Server thread/INFO]: Dragon_Gaming_VN (/172.30.161.183:61075) lost connection: You must wait 10 seconds before logging-in again.
+[15:02:44] [User Authenticator #10/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[15:02:45] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[15:02:45] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:61079] logged in with entity id 111432 at ([world]-383.204663176462, -59.0, -256.84199854790126)
+[15:02:53] [Async Chat Thread - #30/INFO]: [Not Secure] <Dragon_Gaming_VN> chi t cach len trên
+[15:02:59] [Async Chat Thread - #31/INFO]: [Not Secure] <sang2934> đi
+[15:06:17] [Server thread/INFO]: Dragon_Gaming_VN has made the advancement [Take Aim]
+[15:06:43] [Async Chat Thread - #32/INFO]: [Not Secure] <sang2934> bín
+[15:06:48] [Async Chat Thread - #33/INFO]: [Not Secure] <sang2934> t mở rương
+[15:07:25] [Server thread/INFO]: Dragon_Gaming_VN was slain by sang2934
+[15:07:31] [Server thread/INFO]: Dragon_Gaming_VN issued server command: /back
+[15:07:35] [Async Chat Thread - #33/INFO]: [Not Secure] <Dragon_Gaming_VN> lag
+[15:07:39] [Async Chat Thread - #33/INFO]: [Not Secure] <sang2934> :)))
+[15:07:43] [Server thread/INFO]: Dragon_Gaming_VN issued server command: /back
+[15:07:44] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[15:07:44] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[15:07:50] [User Authenticator #11/INFO]: UUID of player Dragon_Gaming_VN is 89ca2685-4a9f-3809-b51d-15b6ba4e29e4
+[15:07:51] [Server thread/INFO]: Dragon_Gaming_VN joined the game
+[15:07:51] [Server thread/INFO]: Dragon_Gaming_VN[/172.30.161.183:61143] logged in with entity id 114587 at ([world]-385.2096968699889, -59.0, -258.69999998807907)
+[15:08:12] [Async Chat Thread - #33/INFO]: [Not Secure] <sang2934> t treo máy từ sáng nên lag
+[15:08:54] [Async Chat Thread - #33/INFO]: [Not Secure] <sang2934> bín
+[15:08:55] [Server thread/INFO]: Dragon_Gaming_VN lost connection: Disconnected
+[15:08:55] [Server thread/INFO]: Dragon_Gaming_VN left the game
+[15:17:20] [User Authenticator #12/INFO]: UUID of player Minhthichcu is a6ea4077-658a-3ba1-9d15-a11facd5a1a5
+[15:17:21] [Server thread/INFO]: Minhthichcu joined the game
+[15:17:21] [Server thread/INFO]: Minhthichcu[/172.30.243.15:61100] logged in with entity id 120664 at ([world]-389.58118174202906, 54.44588729661411, -247.30000001192093)
+[15:17:28] [Async Chat Thread - #34/INFO]: [Not Secure] <sang2934> adu
+[15:17:43] [Async Chat Thread - #35/INFO]: [Not Secure] <Minhthichcu> dumemay
+[15:17:45] [Server thread/INFO]: Minhthichcu lost connection: Disconnected
+[15:17:45] [Server thread/INFO]: Minhthichcu left the game
+[15:21:50] [Server thread/INFO]: sang2934 issued server command: /home
+[15:31:05] [Server thread/INFO]: sang2934 issued server command: /home
+[15:32:36] [Server thread/INFO]: sang2934 issued server command: /home
+[15:36:16] [Server thread/INFO]: Stopping the server
+[15:36:16] [Server thread/INFO]: Stopping server
+[15:36:16] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[15:36:16] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.6
+[15:36:16] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[15:36:16] [Server thread/INFO]: [ClickVillagers] Disabling ClickVillagers v0.5.1
+[15:36:16] [Server thread/INFO]: ClickVillagers deactivated.
+[15:36:16] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.4.6
+[15:36:16] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[15:36:16] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.4
+[15:36:16] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[15:36:16] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.4
+[15:36:16] [Server thread/INFO]: [TheBridge] Disabling TheBridge v2.1.0
+[15:36:16] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.2
+[15:36:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[15:36:16] [Server thread/INFO]: [Themis] Disabling Themis v0.16.1
+[15:36:16] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.3
+[15:36:16] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[15:36:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[15:36:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
+[15:36:16] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[15:36:16] [Server thread/INFO]: Saving players
+[15:36:16] [Server thread/INFO]: sang2934 lost connection: Server closed
+[15:36:16] [Server thread/INFO]: sang2934 left the game
+[15:36:16] [Server thread/INFO]: Saving worlds
+[15:36:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:36:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:36:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:36:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:36:16] [Server thread/INFO]: [ChunkHolderManager] Saved 97 block chunks, 410 entity chunks, 0 poi chunks in world 'world' in 0.31s
+[15:36:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:36:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Saved 314 block chunks, 122 entity chunks, 0 poi chunks in world 'world_nether' in 0.30s
+[15:36:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:36:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:36:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:36:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:36:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:36:17] [Server thread/INFO]: Flushing Chunk IO
+[15:36:17] [Server thread/INFO]: Closing Thread Pool
+[15:36:17] [Server thread/INFO]: Closing Server

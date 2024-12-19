@@ -1,0 +1,373 @@
+# #############################################################################################################
+# MESSAGES
+# Change the language in "config.yml"
+# Don't modify the color codes unless you know what you're doing.
+# #############################################################################################################
+messages:
+  en-US:
+    picked-villager: '&6>> &aYou &lpicked &r&aa villager up.'
+    add-anchor: '&6>> &aYou &lanchored &r&athe villager.'
+    remove-anchor: '&6>> &aYou &c&lremoved &r&athe villager''s anchor.'
+    no-data: '&6>> &cCouldn''t retrieve villager data.'
+    place-hopper: '&6>> &aYou &lplaced &r&aa villager hopper.'
+    break-hopper: '&6>> &aYou &c&ldestroyed &r&aa villager hopper.'
+    hopper-disabled: '&6>> &cVillager hoppers are &ldisabled.'
+    right-click: Right click to place the villager back.
+    villager: Villager
+    baby-villager: Baby Villager
+    zombie-villager: Zombie Villager
+    villager-hopper: Villager Hopper
+    villager-hopper-description: Use this to automatically pick up villagers.
+    anchor-disabled: '&6>> &cAnchors are &ldisabled.'
+    update: '&6>> &eClickVillagers: &a&lNew version available.'
+    no-permission: '&6>> &cYou don''t have permission to do this.'
+    belongs-to: '&6>> &cThis villager belongs to: &e&l'
+    confirm-claim: '&6>> &aYou &lclaimed &r&athis villager.'
+    confirm-unclaim: '&6>> &aYou &c&lunclaimed &r&athis villager.'
+    biome-change: '&6>> &aChanged villager''s biome to: &e&l'
+    shift-edit: '&6>> &a&lShift + Right click &r&ato edit the villager.'
+    claims-disabled: '&6>> &cClaims are &ldisabled.'
+    invalid-player: '&6>> &cPlease input a &lvalid &r&cname.'
+    start-select: '&6>> &eYou have &l10 seconds &r&eto type in chat the trading partner''s
+      name you''d like to add or remove.'
+    partners: |
+      &6>> &aCurrent trading partners &r&aof &l%s:
+    add-partner: '&6>> &a&lAdded &r&atrading partner: &r&l'
+    remove-partner: '&6>> &c&lRemoved &r&atrading partner: &r&l'
+    partner-timeout: '&6>> &cTrading partner selection &lcancelled.'
+    max-partners: '&6>> &cYou can''t have more than &l%s trading partners.'
+    partner-disabled: '&6>> &cTrading partners &ldisabled.'
+    menu-claim: '&8&l🔒 Claim Villager'
+    menu-edit: '&2⚒ &2&l%s&r&a''s Villager'
+    menu-biome: '&8🌲 &lChoose Villager''s Biome'
+    button-claim: '&6🔒 &lCLAIM VILLAGER'
+    button-claim-lore-1: '&e&lClick to claim this villager.'
+    button-claim-lore-2: '&eClaimed villagers can only be picked up/placed back &lby
+      its owner.'
+    button-claim-lore-3: '&eClaimed villagers can''t be picked up &lby villager hoppers.'
+    button-unclaim: '&4🔓 &lUNCLAIM VILLAGER'
+    button-unclaim-lore-1: '&c&lClick to unclaim this villager.'
+    button-unclaim-lore-2: '&cUnclaimed villagers can be picked up and traded with
+      &lby anyone.'
+    button-unclaim-lore-3: '&cUnclaimed villagers can be picked up &lby villager hoppers.'
+    button-tradable: '&a$ &lTRADING OPEN'
+    button-tradable-lore-1: '&2Villager can be traded with &lby anyone.'
+    button-not-tradable: '&4❌ &lTRADING CLOSED'
+    button-not-tradable-lore-1: '&cVillager can only be traded with &lby you and your
+      trade partners.'
+    button-owner: '&r&l+ ADD &6// &r&lREMOVE TRADING PARTNER'
+    button-owner-lore-1: '&7Click to add or remove a &ltrading partner.'
+    button-owner-lore-2: '&7Trading partners can trade with &e&lall of your claimed
+      villagers.'
+    button-biome: '&6🌲 &lCHANGE BIOME'
+    button-biome-lore-1: '&eClick to change the villager''s biome.'
+    button-pick: '&6⬆ &lPICK VILLAGER UP &r&6⬆'
+    button-pick-lore-1: '&eClick to pick villager up.'
+    blank: '&7x'
+  de-DE:
+    picked-villager: '&6>> &aDu hast einen Dorfbewohner &laufgehoben.'
+    add-anchor: '&6>> &aDu hast den Dorfbewohner &lverankert.'
+    remove-anchor: '&6>> &aDu hast den Anker des Dorfbewohners &c&lentfernt.'
+    no-data: '&6>> &cAufrufen der Daten des Dorfbewohners nicht möglich.'
+    place-hopper: '&6>> &aDu hast einen Dorfbewohner-Trichter &lplatziert.'
+    break-hopper: '&6>> &aDu hast einen Dorfbewohner-Trichter &c&lzerstört.'
+    hopper-disabled: '&6>> &cDorfbewohner-Trichter sind &ldeaktiviert.'
+    right-click: Rechtsklicken, um den Dorfbewohner zurück zu platzieren.
+    villager: Dorfbewohner
+    baby-villager: Baby-Dorfbewohner
+    zombie-villager: Zombie-Dorfbewohner
+    villager-hopper: Dorfbewohner-Trichter
+    villager-hopper-description: Ermöglicht automatisches Aufheben von Dorfbewohnern.
+    anchor-disabled: '&6>> &cAnker sind &ldeaktiviert.'
+    update: '&6>> &eClickVillagers: &a&lNeue Version verfügbar.'
+    no-permission: '&6>> &cSie sind nicht berechtigt, das zu tun.'
+    belongs-to: '&6>> &cDieser Dorfbewohner gehört: &e&l'
+    confirm-claim: '&6>> &aDu hast diesen Dorfbewohner &lübernommen.'
+    confirm-unclaim: '&6>> &aDu hast diesen Dorfbewohner &laufgegeben.'
+    biome-change: '&6>> &aDas Biom des Dorfbewohners wurde geändert: &e&l'
+    shift-edit: '&6>> &a&lShift + Rechtsklicken &r&aum Einstellungen zu ändern.'
+    claims-disabled: '&6>> &cÜbernehmen &ldeaktiviert.'
+    invalid-player: '&6>> &cBitte einen &lgültigen &r&cNamen eingeben.'
+    start-select: '&6>> &eDu hast &l10 Sekunden&r&e, den Namen des Handelspartners
+      im Chat zu schreiben, den du hinzufügen oder entfernen möchtest.'
+    partners: |
+      &6>> &aDerzeitige Handelspartner &r&avon &l%s:
+    add-partner: '&6>> &aHandelspartner &lhinzugefügt: &r&l'
+    remove-partner: '&6>> &aHandelspartner &c&lentfernt: &r&l'
+    partner-timeout: '&6>> &cHandelspartnerauswahl &lstorniert.'
+    max-partners: '&6>> &cDu kannst maximal &l%s Handelspartner &r&chaben.'
+    partner-disabled: '&6>> &cHandelspartner &ldeaktiviert.'
+    menu-claim: '&8&l🔒 Übernehmen'
+    menu-edit: '&2⚒ &l%s&r&as Dorfbewohner'
+    menu-biome: '&8🌲 &lBiom ändern'
+    button-claim: '&6🔒 &lDORFBEWOHNER ÜBERNEHMEN'
+    button-claim-lore-1: '&e&lKlicken, um den Dorfbewohner zu übernehmen.'
+    button-claim-lore-2: '&eÜbernommene Dfbw. können nur von &lihrem Besitzer &r&eaufgehoben
+      werden.'
+    button-claim-lore-3: '&eÜbernommene Dfbw. können nicht von &lDorfbewohner-Trichtern
+      &r&eaufgehoben.'
+    button-unclaim: '&4🔓 &lDORFBEWOHNER AUFGEBEN'
+    button-unclaim-lore-1: '&c&lKlicken, um den Dorfbewohner aufzugeben.'
+    button-unclaim-lore-2: '&cAufgegebene Dfbw. können von &ljedem &r&caufgehoben
+      werden.'
+    button-unclaim-lore-3: '&cAufgegebene Dfbw. können von &lDfbw-Trichtern &r&caufgehoben
+      werden.'
+    button-tradable: '&a$ &lHANDELN OFFEN'
+    button-tradable-lore-1: '&2Dorfbewohner lasst sich &lvon jedem &r&2handeln.'
+    button-not-tradable: '&4❌ &lHANDELN GESPERRT'
+    button-not-tradable-lore-1: '&cDorfbewohner lasst sich nur &lvon dir und deinen
+      Handelspartnern &r&chandeln.'
+    button-owner: '&r&l+ HANDELSPARTNER HINZUFÜGEN &6// &r&lENTFERNEN'
+    button-owner-lore-1: '&7Klicken, um &leinen Handelspartner &r&7hinzuzufügen oder
+      zu entfernen.'
+    button-owner-lore-2: '&7Handelspartner können mit &e&lall deinen übernommenen
+      Dorfbewohnern handeln.'
+    button-biome: '&6🌲 &lBIOM ÄNDERN'
+    button-biome-lore-1: '&eKlicken, um das Biom des Dorfbewohners zu ändern.'
+    button-pick: '&6⬆ &lDORFBEWOHNER AUFHEBEN &r&6⬆'
+    button-pick-lore-1: '&eKlicken, um Dorfbewohner aufzuheben.'
+    blank: '&7x'
+  tr-TR:
+    picked-villager: '&6>> &aBir köylüyü &leline aldın.'
+    add-anchor: '&6>> &aKöylüyü &lsabitledin.'
+    remove-anchor: '&6>> &aKöylünün &c&lsabitlemesini kaldırdın.'
+    no-data: '&6>> &cKöylünün verilerine erişilemedi.'
+    place-hopper: '&6>> &aBir köylü hunisi &lkoydun.'
+    break-hopper: '&6>> &aBir köylü hunisi &c&lkırdın.'
+    hopper-disabled: '&6>> &cKöylü hunileri &lkapalı.'
+    right-click: Köylüyü geri koymak için sağ tıkla.
+    villager: Köylü
+    baby-villager: Bebek Köylü
+    zombie-villager: Zombi Köylü
+    villager-hopper: Köylü Hunisi
+    villager-hopper-description: Köylüleri otomatik toplamak için kullan.
+    anchor-disabled: '&6>> &cSabitleme &lkapalı.'
+    update: '&6>> &eClickVillagers: &a&lYeni sürüm mevcut.'
+    no-permission: '&6>> &cBunu yapmaya iznin yok.'
+    belongs-to: '&6>> &cBu köylü şu kişiye ait: &e&l'
+    confirm-claim: '&6>> &aKöylüyü &lsahiplendin.'
+    confirm-unclaim: '&6>> &aKöylünün &c&lsahipliğini bıraktın.'
+    biome-change: '&6>> &aKöylünün biyomu değiştirildi: &e&l'
+    shift-edit: '&6>> &a&lShift + Sağ tık &r&ayaparak köylünün ayarlarını değiştir.'
+    claims-disabled: '&6>> &cSahiplenme &lkapalı.'
+    invalid-player: '&6>> &cLütfen &lgeçerli &r&cbir isim gir.'
+    start-select: '&6>> &eEklemek ya da silmek istediğin takas ortağının adını chat''e
+      yazmak için &l10 saniyen &r&evar.'
+    partners: |
+      &6>> &a&l%s&r&a'in mevcut takas ortakları:
+    add-partner: '&6>> &aTakas ortağı &leklendi: &r&l'
+    remove-partner: '&6>> &aTakas ortağı &c&lsilindi: &r&l'
+    partner-timeout: '&6>> &cTakas ortağı ekleme/silme işlemi &liptal edildi.'
+    max-partners: '&6>> &c&l%s takas ortağından &r&cfazla takas ortağı ekleyemezsin.'
+    partner-disabled: '&6>> &cTakas ortakları &lkapalı.'
+    menu-claim: '&8&l🔒 Köylüyü sahiplen.'
+    menu-edit: '&2⚒ &2&l%s&r&a''nin Köylüsü'
+    menu-biome: '&8🌲 &lKöylünün Biyomunu Seç'
+    button-claim: '&6🔒 &lKÖYLÜYÜ SAHİPLEN'
+    button-claim-lore-1: '&e&lKöylüyü sahiplenmek için tıkla.'
+    button-claim-lore-2: '&eSahipli köylüler sadece &lsahipleri &r&etarafından ele
+      alınabilir.'
+    button-claim-lore-3: '&eSahipli köylüler &lköylü hunileri &r&etarafından toplanamaz.'
+    button-unclaim: '&4🔓 &lKÖYLÜ SAHİPLİĞİNİ BIRAK'
+    button-unclaim-lore-1: '&c&lKöylü sahipliğini bırakmak için tıkla.'
+    button-unclaim-lore-2: '&cSahipsiz köylüler &lherkes tarafından &r&cele alınabilir
+      ve takas yapılabilir.'
+    button-unclaim-lore-3: '&cSahipsiz köylüler &lköylü hunileri &r&ctarafından toplanabilir.'
+    button-tradable: '&a$ &lTAKAS AÇIK'
+    button-tradable-lore-1: '&2&lHerkes &r&2köylü ile takas yapabilir.'
+    button-not-tradable: '&4❌ &lTAKAS KAPALI'
+    button-not-tradable-lore-1: '&c&lSadece sen ve takas ortakların &r&cköylü ile
+      takas yapabilir.'
+    button-owner: '&r&l+ TAKAS ORTAĞI EKLE &6// &r&lKALDIR'
+    button-owner-lore-1: '&7&lTakas ortağı &r&7eklemek için tıkla.'
+    button-owner-lore-2: '&7Takas ortakları &e&lsahibi olduğun tüm köylülerle takas
+      yapabilir.'
+    button-biome: '&6🌲 &lBİYOM DEĞİŞTİR'
+    button-biome-lore-1: '&eKöylünün biyomunu değiştirmek için tıkla.'
+    button-pick: '&6⬆ &lKÖYLÜYÜ ELİNE AL &r&6⬆'
+    button-pick-lore-1: '&eKöylüyü eline almak için tıkla.'
+    blank: '&7x'
+  uk-UA:
+    picked-villager: '&6>> &aВи підняли селянина.'
+    add-anchor: '&6>> &aВи закріпили селянина.'
+    remove-anchor: '&6>> &aВи відкріпили селянина.'
+    no-data: '&6>> &cНе вдалося отримати інформацію про селянина.'
+    place-hopper: '&6>> &aВи розмістили збирач селян.'
+    break-hopper: '&6>> &cВи знищили збирач селян.'
+    hopper-disabled: '&6>> &cЗбирачі селян вимкнені.'
+    right-click: ПКМ, щоб випустити жителя.
+    villager: Селянин
+    baby-villager: Селянин-дитина
+    zombie-villager: Зомбоселянин
+    villager-hopper: Збирач селян
+    villager-hopper-description: Використовуй це, щоб автоматично підбирати селян.
+    anchor-disabled: '&6>> &cЯкорі відключені.'
+    update: '&6>> &eClickVillagers: &a&lДоступна нова версія.'
+    no-permission: '&6>> &cУ вас немає дозволу на цю дію.'
+    belongs-to: '&6>> &cЦей селянин належить до: &e&l'
+    confirm-claim: '&6>> &aВи &lзареєстрували &r&aцього селянина.'
+    confirm-unclaim: '&6>> &aВи &c&lвідмовилися від &r&aцього селянина.'
+    biome-change: '&6>> &aЗмінено біом селянина на: &e&l'
+    shift-edit: '&6>> &a&lShift + ПКМ &r&aдля редагування селянина.'
+    claims-disabled: '&6>> &cРеєстрація &lвимкнена.'
+    invalid-player: '&6>> &cВведіть &lкоректне &r&cім''я.'
+    start-select: '&6>> &eУ вас &l10 секунд &r&eщоб написати в чат ім''я торгового
+      партнера, якого ви б хотіли додати або видалити.'
+    partners: |
+      &6>> &aПоточні торгові партнери &r&aгравця &l%s:
+    add-partner: '&6>> &a&lДодано &r&aторгового партнера: &r&l'
+    remove-partner: '&6>> &c&lВидалено &r&aторгового партнера: &r&l'
+    partner-timeout: '&6>> &cВибір торгового партнера &lскасовано.'
+    max-partners: '&6>> &cУ вас не може бути більше, ніж &l%s торгових партнерів.'
+    partner-disabled: '&6>> &cТоргові партнери &lвимкнені.'
+    menu-claim: '&8&l🔒 Зареєструвати селянина'
+    menu-edit: '&2⚒ &aСелянин гравця &2&l%s'
+    menu-biome: '&8🌲 &lВибрати Біом Селянина'
+    button-claim: '&6🔒 &lЗАРЕЄСТРУВАТИ СЕЛЯНИНА'
+    button-claim-lore-1: '&e&lНатисніть, щоб зареєструвати цього селянина.'
+    button-claim-lore-2: '&eЗареєстровані селяни можуть бути забрані/повернуті &lлише
+      їх власником.'
+    button-claim-lore-3: '&eЗареєстровані селяни не можуть бути забрані &lза допомогою
+      механізмів для селян.'
+    button-unclaim: '&4🔓 &lВІДМОВИТИСЯ ВІД СЕЛЯНИНА'
+    button-unclaim-lore-1: '&c&lНатисніть, щоб відмовитися від цього селянина.'
+    button-unclaim-lore-2: '&cНезареєстровані селяни можуть бути забрані та торговані
+      &lз будь-ким.'
+    button-unclaim-lore-3: '&cНезареєстровані селяни можуть бути забрані &lза допомогою
+      механізмів для селян.'
+    button-tradable: '&a$ &lТОРГІВЛЯ ВІДКРИТА'
+    button-tradable-lore-1: '&2Селянин може торгувати &lз будь-ким.'
+    button-not-tradable: '&4❌ &lТОРГІВЛЯ ЗАКРИТА'
+    button-not-tradable-lore-1: '&cСелянин може торгувати лише &lз вами та вашими
+      торговими партнерами.'
+    button-owner: '&r&lДОДАТИ &6// &r&lВИДАЛИТИ ТОРГОВОГО ПАРТНЕРА'
+    button-owner-lore-1: '&7Натисніть для додавання або видалення &lторгового партнера.'
+    button-owner-lore-2: '&7Торгові партнери можуть торгувати з &e&lусіма вашими зареєстрованими
+      селянами.'
+    button-biome: '&6🌲 &lЗМІНИТИ БІОМ'
+    button-biome-lore-1: '&eНатисніть, щоб змінити біом селянина.'
+    button-pick: '&6⬆ &lПІДНЯТИ СЕЛЯНИНА &r&6⬆'
+    button-pick-lore-1: '&eНатисніть, щоб підняти селянина.'
+    blank: '&7x'
+  ru-RU:
+    picked-villager: '&6>> &aВы подняли крестьянина.'
+    add-anchor: '&6>> &aВы закрепили крестьянина.'
+    remove-anchor: '&6>> &aВы открепили крестьянина.'
+    no-data: '&6>> &cНе удалось получить информацию о крестьянине.'
+    place-hopper: '&6>> &aВы установили сборщик крестьян.'
+    break-hopper: '&6>> &cВы сломали сборщик крестьян.'
+    hopper-disabled: '&6>> &cСборщики крестьян отключены.'
+    right-click: ПКМ, чтобы поставить крестьянина обратно.
+    villager: Крестьянин
+    baby-villager: Крестьянин-ребенок
+    zombie-villager: Крестьянин-зомби
+    villager-hopper: Сборщик крестьян
+    villager-hopper-description: Используйте это, чтобы автоматически подбирать крестьян.
+    anchor-disabled: '&6>> &cЯкоря отключены.'
+    update: '&6>> &eClickVillagers: &a&lДоступна новая версия.'
+    no-permission: '&6>> &cУ вас нету прав на это действие.'
+    belongs-to: '&6>> &cЭтот житель принадлежит: &e&l'
+    confirm-claim: '&6>> &aВы &lзарегистрировали &r&aэтого жителя.'
+    confirm-unclaim: '&6>> &aВы &c&lотказались от &r&aэтого жителя.'
+    biome-change: '&6>> &aИзменён биом жителя на: &e&l'
+    shift-edit: '&6>> &a&lShift + ПКМ &r&aдля редактирования жителя.'
+    claims-disabled: '&6>> &cРегистрация &lотключена.'
+    invalid-player: '&6>> &cВведите &lкорректное &r&cимя.'
+    start-select: '&6>> &eУ вас есть &l10 секунд &r&eчтобы ввести в чат имя торгового
+      партнёра, которого вы хотите добавить или удалить.'
+    partners: |
+      &6>> &aТекущие торговые партнёры &r&aигрока &l%s:
+    add-partner: '&6>> &a&lДобавлен &r&aторговый партнёр: &r&l'
+    remove-partner: '&6>> &c&lУдалён &r&aторговый партнёр: &r&l'
+    partner-timeout: '&6>> &cВыбор торгового партнёра &lотменён.'
+    max-partners: '&6>> &cУ вас не может быть больше, чем &l%s торговых партнёров.'
+    partner-disabled: '&6>> &cТорговые партнёры &lотключены.'
+    menu-claim: '&8&l🔒 Зарегистрировать жителя'
+    menu-edit: '&2⚒ &aЖитель игрока &2&l%s'
+    menu-biome: '&8🌲 &lВыбрать биом жителя'
+    button-claim: '&6🔒 &lЗАРЕГИСТРИРОВАТЬ ЖИТЕЛЯ'
+    button-claim-lore-1: '&e&lНажмите, чтобы зарегистрировать этого жителя.'
+    button-claim-lore-2: '&eЗарегистрированные жители могут быть забраны/возвращены
+      &lтолько их владельцем.'
+    button-claim-lore-3: '&eЗарегистрированные жители не могут быть забраны &lс помощью
+      механизмов для жителей.'
+    button-unclaim: '&4🔓 &lОТКАЗАТЬСЯ ОТ ЖИТЕЛЯ'
+    button-unclaim-lore-1: '&c&lНажмите, чтобы отказаться от этого жителя.'
+    button-unclaim-lore-2: '&cНезарегистрированные жители могут быть забраны и торговаться
+      &lс кем угодно.'
+    button-unclaim-lore-3: '&cНезарегистрированные жители могут быть забраны &lс помощью
+      механизмов для жителей.'
+    button-tradable: '&a$ &lТОРГОВЛЯ ОТКРЫТА'
+    button-tradable-lore-1: '&2Житель может торговать &lс кем угодно.'
+    button-not-tradable: '&4❌ &lТОРГОВЛЯ ЗАКРЫТА'
+    button-not-tradable-lore-1: '&cЖитель может торговать только &lс вами и вашими
+      торговыми партнёрами.'
+    button-owner: '&r&lДОБАВИТЬ &6// &r&lУДАЛИТЬ ТОРГОВОГО ПАРТНЁРА'
+    button-owner-lore-1: '&7Нажмите, чтобы добавить или удалить &lторгового партнёра.'
+    button-owner-lore-2: '&7Торговые партнёры могут торговать с &e&lвсеми вашими зарегистрированными
+      жителями.'
+    button-biome: '&6🌲 &lИЗМЕНИТЬ БИОМ'
+    button-biome-lore-1: '&eНажмите, чтобы изменить биом жителя.'
+    button-pick: '&6⬆ &lПОДНЯТЬ ЖИТЕЛЯ &r&6⬆'
+    button-pick-lore-1: '&eНажмите, чтобы поднять жителя.'
+    blank: '&7x'
+  vi-VN:
+    picked-villager: '&6>> &aBạn &lđã nhặt &r&amột dân làng lên.'
+    add-anchor: '&6>> &aBạn &lđã khóa di chuyển &r&acủa dân làng.'
+    remove-anchor: '&6>> &aBạn &c&lđã bỏ khóa di chuyển &r&a của dân làng.'
+    no-data: '&6>> &cKhông thể lấy dữ liệu của dân làng.'
+    place-hopper: '&6>> &aBạn &lđã đặt &r&amột máy hút dân làng ra.'
+    break-hopper: '&6>> &aBạn &c&lđã phá hủy &r&amáy hút dân làng.'
+    hopper-disabled: '&6>> &cMáy hút dân làng &lkhông được kích hoạt.'
+    right-click: Chuột phải để đặt dân làng ra.
+    villager: Dân Làng
+    baby-villager: Dân làng Trẻ Tuổi
+    zombie-villager: Dân Làng Thây Ma
+    villager-hopper: Máy hút dân làng
+    villager-hopper-description: Dùng để tự động nhặt dân làng.
+    anchor-disabled: '&6>> &cKhóa di chuyển &lkhông được kích hoạt.'
+    update: '&6>> &eClickVillagers: &a&lĐã có phiên bản mới.'
+    no-permission: '&6>> &cBạn không có quyền sử dụng lệnh này.'
+    belongs-to: '&6>> &cDân làng này thuộc về: &e&l'
+    confirm-claim: '&6>> &aBạn &lđã nhận &r&adân làng này.'
+    confirm-unclaim: '&6>> &aBạn &c&lđã bỏ &r&adân làng này.'
+    biome-change: '&6>> &aĐã đổi khu vực thành: &e&l'
+    shift-edit: '&6>> &a&lShift + Chuột Phải &r&ađể chỉnh sửa dân làng.'
+    claims-disabled: '&6>> &cNhận dân làng &lkhông được kích hoạt.'
+    invalid-player: '&6>> &cXin vui lòng nhập &lđúng định dạng &r&ctên.'
+    start-select: '&6>> &eBạn có &l10 giây &r&eđể nhập trong khung chat tên người
+      dùng chung dân làng để thêm hoặc xóa.'
+    partners: |
+      &6>> &aNhững người có thể dùng chung dân làng &r&aof &l%s:
+    add-partner: '&6>> &a&lĐã thêm &r&angười dùng chung: &r&l'
+    remove-partner: '&6>> &c&lĐã xóa &r&angười dùng chung: &r&l'
+    partner-timeout: '&6>> &cLựa chọn người dùng chung &lđã bị hủy.'
+    max-partners: '&6>> &cBạn không thể có quá &l%s người dùng chung.'
+    partner-disabled: '&6>> &cNgười dùng chung &lkhông được kích hoạt.'
+    menu-claim: '&8&l🔒 Nhận Dân làng'
+    menu-edit: '&2⚒ &r&aDân làng của &2&l%s&r'
+    menu-biome: '&8🌲 &lChọn vực'
+    button-claim: '&6🔒 &lNHẬN DÂN LÀNG'
+    button-claim-lore-1: '&e&lNhấn để nhận quyền sở hữu dân làng.'
+    button-claim-lore-2: '&eDân làng này sẽ chỉ có thể được đặt ra/nhấc lên &lbởi
+      chủ sở hữu.'
+    button-claim-lore-3: '&eVà sẽ không bị hút &lbởi Máy hút dân làng.'
+    button-unclaim: '&4🔓 &lBỎ DÂN LÀNG'
+    button-unclaim-lore-1: '&c&lNhấn để bỏ quyền sở hữu dân làng.'
+    button-unclaim-lore-2: '&cDân làng này sẽ chỉ có thể được đặt ra/nhấc lên &lbởi
+      mọi người.'
+    button-unclaim-lore-3: '&cVà sẽ bị hút &lbởi Máy hút dân làng.'
+    button-tradable: '&a$ &lMỞ KHÓA TRAO ĐỔI'
+    button-tradable-lore-1: '&2Dân làng có thể trao đổi &lbởi mọi người.'
+    button-not-tradable: '&4❌ &lKHÓA TRAO ĐỔI'
+    button-not-tradable-lore-1: '&cDân làng chỉ có thể trao đổi &lbạn và người dùng
+      chung.'
+    button-owner: '&r&l+ THÊM &6// &r&lXÓA NGƯỜI DÙNG CHUNG'
+    button-owner-lore-1: '&7Nhấn để thêm hoặc xóa &lngười dùng chung.'
+    button-owner-lore-2: '&7Người dùng chung có thể trao đổi với &e&lTẤT CẢ dân làng
+      của bạn.'
+    button-biome: '&6🌲 &lĐỔI KHU VỰC'
+    button-biome-lore-1: '&eNhấn để đổi khu vực của dân làng.'
+    button-pick: '&6⬆ &lNHẶT DÂN LÀNG &r&6⬆'
+    button-pick-lore-1: '&eNhấn để nhặt dân làng lên.'
+    blank: '&7x'

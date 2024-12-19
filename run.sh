@@ -1,0 +1,1 @@
+java -Xmx6024M -Xms6024M -jar server.jar nogui
